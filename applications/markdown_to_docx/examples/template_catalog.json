@@ -1,0 +1,9 @@
+{
+  "templates": {
+    "report": {
+      "template_path": "starter-template.docx",
+      "style_profile_path": "default_style_profile.json",
+      "anchor": "{{PADDLEOCR_MARKDOWN}}"
+    }
+  }
+}
