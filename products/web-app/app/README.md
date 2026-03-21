@@ -1,13 +1,35 @@
-# Reserved Application Workspace
+# Web Application Workspace
 
-This directory is reserved for future implementation in the `web` product line.
+This directory now contains the initial Next.js + TypeScript skeleton for the
+`web` product line.
 
-Suggested submodules:
+## Included in this v0 skeleton
 
-- `frontend/`
-- `backend/`
-- `worker/`
-- `shared/`
+- App Router pages for:
+  - home
+  - upload
+  - wallet
+  - task list
+  - task detail
+- Minimal API route placeholders for:
+  - anonymous session creation
+  - task listing
+  - task detail
+  - wallet metadata
+- Domain primitives for:
+  - anonymous sessions
+  - task state transitions
+  - primary navigation
 
-The application code should stay fully API-only and must not depend on local
+## Commands
+
+```bash
+npm install
+npm run dev
+npm test
+```
+
+## Important constraint
+
+The application must stay fully API-only and must not depend on local
 PaddleOCR model execution as its primary runtime path.
