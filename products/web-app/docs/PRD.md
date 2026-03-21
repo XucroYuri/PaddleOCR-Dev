@@ -64,7 +64,7 @@
 - 不把微信公众号作为一期主登录门槛
 - 不做完整输入/输出对比预览
 - 不直接对最终用户开放 `Markdown/JSON` 下载
-- 不把 MCP / OpenCloud Skills 作为一期主入口
+- 不把 MCP / OpenClaw Skills 作为一期主入口
 
 ## 3. AI System Requirements
 
@@ -137,4 +137,3 @@
 - `v1`：商用首版（支付、上传、异步 OCR、DOCX 下载）
 - `v1.1`：手机号验证码登录与匿名会话绑定
 - `v1.2+`：微信身份绑定、消息通知、后续 Agent/MCP 接入
-

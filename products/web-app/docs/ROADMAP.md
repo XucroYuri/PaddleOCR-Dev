@@ -45,6 +45,5 @@
 
 新增：
 
-- 基于同一后端能力开放 `OpenCloud Skills / MCP`
+- 基于同一后端能力开放 `OpenClaw Skills / MCP`
 - Web 产品与 Agent 调用共享统一任务系统
-
