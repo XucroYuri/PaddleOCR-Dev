@@ -37,3 +37,17 @@ export function canTransitionTask(
   return transitionMap[from].includes(to);
 }
 
+/**
+ * P3.4: Get task price by document type
+ */
+export function getTaskPrice(
+  documentType: "exam" | "handout" | "homework"
+): string | undefined {
+  const prices: Record<string, string> = {
+    exam: "2.00",
+    handout: "1.50",
+    homework: "1.00",
+  };
+  return prices[documentType];
+}
+
